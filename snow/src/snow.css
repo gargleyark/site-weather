@@ -1,0 +1,56 @@
+.snowflake {
+  transition: top 10s, margin-left 10s, opacity 0.5s;
+  top: -1%;
+  margin-left: 0px;
+  color: white;
+  position: fixed;
+  zIndex: 1000;
+}
+
+.snowflake.snow-0 {
+  margin-left: 0px;
+}
+
+.snowflake.snow-1 {
+  margin-left: 10px;
+}
+
+.snowflake.snow-2 {
+  margin-left: 20px;
+}
+
+.snowflake.snow-3 {
+  margin-left: 30px;
+}
+
+.snowflake.snow-4 {
+  margin-left: 40px;
+}
+
+.snowflake.snow-5 {
+  margin-left: 50px;
+}
+
+.snowflake.snow-6 {
+  margin-left: 60px;
+}
+
+.snowflake.snow-7 {
+  margin-left: 70px;
+}
+
+.snowflake.snow-8 {
+  margin-left: 80px;
+}
+
+.snowflake.snow-9 {
+  margin-left: 90px;
+}
+
+.snowflake.snow-10 {
+  margin-left: 100px;
+}
+
+.snowflake.snow-fall {
+  top: 100%;
+}
