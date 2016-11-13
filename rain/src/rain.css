@@ -1,0 +1,17 @@
+.raindrop {
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  transition: top 2.5s, margin-left 2.5s, opacity 0.5s;
+  top: -10%;
+  margin-left: 0px;
+  color: blue;
+  position:  fixed;
+  zIndex: 1000;
+  font-size: 16px
+}
+.raindrop.rain {
+  margin-left:  80px;
+}
+.raindrop.rain-fall {
+  top: 120%;
+}
